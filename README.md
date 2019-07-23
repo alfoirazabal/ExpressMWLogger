@@ -1,5 +1,5 @@
 # ExpressMWLogger
-NodeJS Express Login Middleware with external file for editing users data (with hashed passwords)
+<h1>NodeJS Express Login Middleware with external file for editing users data (with hashed passwords)</h1>
 EXPRESS MIDDLEWARE For managing users login
     NOTE:
     The validUsers.json file contains the user data
