@@ -1,17 +1,25 @@
 # ExpressMWLogger
-<h1>NodeJS Express Login Middleware with external file for editing users data (with hashed passwords)</h1>
-EXPRESS MIDDLEWARE For managing users login
-    NOTE:
-    The validUsers.json file contains the user data
-    (by default, user1 password is user1, and user2 password
-    is user2).
-    Passwords are hashed with md5
-    HOW TO USE:
-    On the startup site...
-    1 - Require it like this...
+<h3>EXPRESS MIDDLEWARE For managing users login</h3>
+<h5>NOTE:</h5>
+<p>
+The validUsers.json file contains the user data
+(by default, user1 password is user1, and user2 password
+is user2).
+Passwords are hashed with md5
+</p>
+<h5>HOW TO USE:</h5>
+<p>On the startup site...</p>
+<ol>
+    <li>Require it like this...<br />
         const logger = require(""); //Insert logger.js path
-    2 - Then use it like this...
+    </li>
+    <li>
+        Then use it like this...<br />
         app.use(logger)
-    3 - You shall modify validUserData in the validUsers.json 
+    </li>
+    <li>
+        You shall modify validUserData in the validUsers.json 
         file declared on the constant 'JSONPathValidUsers', and
         add or delete users of your choice
+    </li>
+</ol>
